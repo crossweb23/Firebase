@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nearby"
+    android:id="@+id/snackbar_nearby">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/NearbyCafe"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        app:icon="@drawable/ic_coffee"
+        app:iconTint="@color/black"
+        android:onClick="btnCafeClick"
+        android:text="Nearby Cafes"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/NearbyPark"
+        app:layout_editor_absoluteX="11dp"
+        tools:ignore="VectorDrawableCompat"
+        android:textColor="@color/black"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/NearbyPark"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        app:icon="@drawable/ic_grass"
+        app:iconTint="@color/black"
+        android:onClick="btnParkClick"
+        android:text="Nearby Parks"
+        app:layout_constraintLeft_toRightOf="@id/NearbyCafe"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_editor_absoluteX="11dp"
+        tools:ignore="onClick, VectorDrawableCompat"
+        android:textColor="@color/black"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/NearbySupermarket"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        app:icon="@drawable/ic_market"
+        app:iconTint="@color/black"
+        android:onClick="btnSupermarketClick"
+        android:text="Nearby Supermarkets"
+        app:layout_constraintTop_toBottomOf="@id/NearbyCafe"
+        app:layout_constraintLeft_toLeftOf="@id/NeabyGym"
+        app:layout_constraintRight_toLeftOf="parent"
+        tools:ignore="onClick, VectorDrawableCompat"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/NeabyGym"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        app:icon="@drawable/ic_gym"
+        app:iconTint="@color/black"
+        android:onClick="btnGymClick"
+        android:text="Nearby Gyms"
+        app:layout_constraintLeft_toRightOf="@id/NearbySupermarket"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/NearbyPark"
+        tools:ignore="onClick, VectorDrawableCompat"
+        android:textColor="@color/black"
+        />
+
+    <fragment
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frNearbyMap"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/NearbyCafe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout="@layout/activity_nearby"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

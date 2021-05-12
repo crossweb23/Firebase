@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home_screen_layout"
+    tools:context=".HomeScreen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/default1">
+
+
+        <TextView
+            android:id="@+id/Welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Welcome"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Welcome_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginTop="10dp" />
+
+        <ImageButton
+            android:id="@+id/journalImg"
+            android:layout_width="141dp"
+            android:layout_height="118dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/some_selector_name"
+            android:onClick="btnJournal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/study" />
+
+        <TextView
+            android:id="@+id/journalTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="86dp"
+            android:text="Journal"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/journalImg" />
+
+        <ImageButton
+            android:id="@+id/timerImg"
+            android:layout_width="125dp"
+            android:layout_height="115dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/some_selector_name"
+            android:onClick="btnTimer"
+            app:layout_constraintLeft_toRightOf="@id/journalImg"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/time" />
+
+        <TextView
+            android:id="@+id/timerTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="127dp"
+            android:layout_marginTop="5dp"
+            android:text="Timer"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintHorizontal_bias="0.734"
+            app:layout_constraintLeft_toRightOf="@id/journalTxt"
+            app:layout_constraintTop_toBottomOf="@+id/timerImg" />
+
+
+        <ImageButton
+            android:id="@+id/todoImg"
+            android:layout_width="117dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/some_selector_name"
+            android:contentDescription="TODO"
+            android:onClick="btnTodo"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/journalTxt"
+            app:srcCompat="@drawable/checklist" />
+
+        <TextView
+            android:id="@+id/todoTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="74dp"
+            android:layout_marginTop="10dp"
+            android:text="To-do List"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/todoImg" />
+
+
+        <ImageButton
+            android:id="@+id/nearby"
+            android:layout_width="116dp"
+            android:layout_height="108dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="84dp"
+            android:background="@drawable/some_selector_name"
+            android:contentDescription="TODO"
+            android:onClick="btnNearby"
+            app:layout_constraintStart_toEndOf="@+id/todoImg"
+            app:layout_constraintTop_toBottomOf="@+id/timerImg"
+            app:srcCompat="@drawable/nearby" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="52dp"
+            android:text="@string/nearby_me"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nearby" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/some_selector_name"
+            android:onClick="btnMood_Tracker"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/mood" />
+
+        <TextView
+            android:id="@+id/mood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Mood Tracker"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/nav_header"
+        android:id="@+id/navView"
+        app:menu="@menu/nav_drawer_menu"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

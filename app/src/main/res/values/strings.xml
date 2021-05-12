@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Productly</string>
+
+    <!-- Activity Main Interface-->
+    <string name="conText">By Continuing you agree to the Terms And Condition</string>
+    <string name="btnProceed">Sign In With Google </string>
+
+    <!-- Start Interface-->
+    <string name="btnStart">Start</string>
+    <string name="txtView">The only productivity app you need</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- Text for lock screen-->
+    <string name="tvLockScreenMsg">Screen Lock Pin</string>
+    <string name="tvLSOne">1</string>
+    <string name="tvLSTwo">2</string>
+    <string name="tvLSThree">3</string>
+    <string name="tvLSFour">4</string>
+    <string name="tvLSFive">5</string>
+    <string name="tvLSSix">6</string>
+    <string name="tvLSSeven">7</string>
+    <string name="tvLSEight">8</string>
+    <string name="tvLSNine">9</string>
+    <string name="tvLSZero">0</string>
+
+    <string name="edPWd">Enter password</string>
+
+    <!-- Nav Drawer Menu Interface-->
+    <string name="item1">Home</string>
+    <string name="item2">Review App</string>
+    <string name="item3">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_data">No Data</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="search">Search</string>
+
+    <string name="delete_all">Delete All</string>
+    <string name="priority_high">Priority High</string>
+    <string name="priority_low">Priority Low</string>
+    <string name="sort_by">Sort By</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="maps">Maps</string>
+
+    <string-array name="priorities">
+        <item> High</item>
+        <item>Medium</item>
+        <item>Low</item>
+
+    </string-array>
+
+
+    <string name="notes">My Journal</string>
+    <string name="notes_title">Journal Title</string>
+    <string name="notes_sub_title">Journal Sub Title</string>
+    <string name="notes_desc">Enter Note Here</string>
+    <string name="web_url">Enter Web Url</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="storage_permission_text">This app needs access to your storage.</string>
+    <string name="search2">Search your notes</string>
+    <string name="nearby_me">Nearby Me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- <string name="hello_blank_fragment">Hello blank fragment</string>-->
+</resources>

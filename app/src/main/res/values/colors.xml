@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="default1">#FFF9C4</color>
+    <color name="btn">#FFEB3B</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+
+    <color name="gray">#808080	</color>
+
+
+
+
+
+    <color name="colorPrimary">#FFEB3B</color>
+    <color name="colorPrimaryDark">#10141C</color>
+    <color name="colorAccent">#789FCC</color>
+    <color name="ColorWhite">#ffffff</color>
+    <color name="ColorGray">#CACACA</color>
+    <color name="ColorLightBlack">#171C26</color>
+    <color name="ColorText">#606570</color>
+    <color name="ColorDarkBlack">#10141C</color>
+    <color name="ColorYellow">#ffd633</color>
+    <color name="ColorBlue">#4e33ff</color>
+
+   <!-- // Notes-->
+    <color name="ColorDefaultNote">#FFB449</color>
+    <color name="ColorBlueNote">#789FCC</color>
+    <color name="ColorYellowNote">#ffd633</color>
+    <color name="ColorWhiteNote">#FDFD97</color>
+    <color name="ColorPurpleNote">#AFC9CF</color>
+    <color name="ColorGreenNote">#EEF66C</color>
+    <color name="ColorOrangeNote">#F68B1F</color>
+    <color name="ColorBlackNote">#E4F6F8</color>
+</resources>

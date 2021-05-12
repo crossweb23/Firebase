@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "467340917464",
+    "project_id": "animated-lyceum-310008",
+    "storage_bucket": "animated-lyceum-310008.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467340917464:android:952b1ee6fab7a47c8335ad",
+        "android_client_info": {
+          "package_name": "com.example.productly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467340917464-mmh8nodojqunmtmvcv2d910aq32n9v3p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.productly",
+            "certificate_hash": "b536ff38baf4ba80a98e556559d92b94720a0ca6"
+          }
+        },
+        {
+          "client_id": "467340917464-2u8p398d3h5tvomqp2lkfsg5tb3bp6fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkWw-_ZRYZPqioZZsn7pe3QKhgjGtZhnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467340917464-2u8p398d3h5tvomqp2lkfsg5tb3bp6fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
